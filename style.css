@@ -1,0 +1,99 @@
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #111;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Стили для шапки */
+.header {
+    background: linear-gradient(135deg, #00ffee, #ff00ff);
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-content h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.highlight {
+    color: #ff00ff;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #00ffee;
+    color: black;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: #ff00ff;
+}
+
+/* Стили для секции фич */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.feature-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    width: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+.feature-box h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.feature-box p {
+    font-size: 1em;
+}
+
+/* Стили для футера */
+footer {
+    background: #222;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 1em;
+}
